@@ -1,0 +1,16 @@
+ {
+  "name": "MinUtube",
+  "version": "1.0",
+  "description": "Adds a context menu item to watch YouTube videos via its corresponding embed URL and also changes them automatically on Bing.com and Google.com pages.",
+  "permissions": [
+    "contextMenus",
+    "webNavigation",
+    "*://*.google.com/*",
+    "*://*.bing.com/*",
+    "*://*.youtube.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
